@@ -88,21 +88,18 @@ body > footer {
 
 #grid-container {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minimax(300px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 20px;
     padding: 20px;
 }
 
-,grid-item {
+.grid-item {
     position: relative;
 }
 
 .image-container {
     position: relative;
     overflow: hidden;
-}
-
-.image-container {
     width: 100%;
     height: auto;
     display: block;
