@@ -117,7 +117,7 @@ nav {
 
 .overlay-text {
     position: absolute;
-    bottom: 30;
+    bottom: 100;
     left: 50px;
     transform: translateX(-50%);
     color: white;
