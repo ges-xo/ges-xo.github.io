@@ -88,8 +88,6 @@ body > footer {
 
 #grid-container {
     display: grid;
-    grid-template-areas: ;
-    "img img"
     grid-template-columns: 1fr 6fr;
 }
 
