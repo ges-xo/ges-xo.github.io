@@ -88,45 +88,38 @@ body > footer {
 
 #grid-container {
     display: grid;
-    grid-template-areas: ;
-    "img img"
-    grid-template-columns: 1fr 6fr;
-}
-
-#menu {
+    grid-template-columns: repeat(auto-fill, minimax(300px, 1fr));
+    gap: 20px;
     padding: 20px;
 }
 
-nav {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
+,grid-item {
+    position: relative;
 }
 
 .image-container {
     position: relative;
-    display: inline-block;
-    width: 300;
+    overflow: hidden;
 }
 
-.image-container img {
-    display: block;
+.image-container {
     width: 100%;
     height: auto;
-}
+    display: block;
+} 
 
 .overlay-text {
     position: absolute;
-    bottom: 100;
-    left: 50px;
+    bottom: 10px;
+    left: 50%;
     transform: translateX(-50%);
     color: white;
-    font-size: 20px;
+    font-size: 18px;
     text-align: center;
-    background-color: rgba(0,0,0, 0.5);
+    background-color: rgba(0, 0, 0, 0.5);
     padding: 10px;
     border-radius: 5px;
-    width: calc(100%-20px);
+    width: calc(100% - 20px);
     box-sizing: border-box;
 }
 
