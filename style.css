@@ -110,12 +110,12 @@ body > footer {
 } 
 
 .overlay-text {
-    position: absolute;
+    position: left;
     bottom: 10px;
     left: 50%;
     transform: translateX(-50%);
     color: white;
-    font-size: 10px;
+    font-size: 18px;
     text-align: center;
     background-color: rgba(0, 0, 0, 0.5);
     padding: 10px;
