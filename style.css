@@ -69,12 +69,16 @@ form {
 }
 
 img {
-    width: 100px;
+    width: 20vh;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
 }
 
 body > footer {
     background-color: lightgray;
     display: flex;
+
 }
 
 
