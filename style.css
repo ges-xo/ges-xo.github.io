@@ -109,7 +109,7 @@ nav {
     width: 300;
 }
 
-.image-container {
+.image-container img {
     display: block;
     width: 100%;
     height: auto;
@@ -119,10 +119,15 @@ nav {
     position: absolute;
     bottom: 10;
     left: 50px;
-    transform: translate(-50%);
+    transform: translateX(-50%);
     color: white;
     font-size: 18px;
     text-align: center;
+    background-color: rgba(0,0,0, 0.5);
+    padding: 5px;
+    border-radius: 5px;
+    width: calc(100%-20px);
+    box-sizing: border-box;
 }
 
 #footer-ul > div > li > a{
