@@ -69,10 +69,9 @@ form {
 }
 
 img {
-    width: 20vh;
+    width: 100px;
     display: flex;
     justify-content: center;
-    height: 100vh;
 }
 
 body > footer {
