@@ -68,6 +68,10 @@ form {
     text-align: center;
 }
 
+img {
+    width: 100px;
+}
+
 body > footer {
     background-color: lightgray;
     display: flex;
